@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: microservice-surabhya-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-west-2
+  JWT_SECRET: hello
+  POSTGRESS_DB: postgres
+  POSTGRESS_HOST: microservice-surabhya-dev-db.ces69oyzav38.us-west-2.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
